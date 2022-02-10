@@ -29,6 +29,13 @@ export default {
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  place-content: center;
+  background: #49f0cb;
+}
 #Worldmap {
+  height: 100vh;
+  width: 100vw;
 }
 </style>
