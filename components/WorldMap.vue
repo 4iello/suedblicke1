@@ -1207,7 +1207,7 @@ export default {
       default: false,
     },
   },
-  mounted() {
+  created() {
     // eslint-disable-next-line no-new
     new Vivus("WorldMap", { duration: 300 });
   },
